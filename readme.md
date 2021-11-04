@@ -1,6 +1,6 @@
 这是一个SPA(Single Page Application)的示例微应用, 包括了后端server和前端页面
 
-项目中的server端是用`golang`和![gin]()写的
+项目中的server端是用`golang`和[gin](https://github.com/gin-gonic/gin)写的
 
 ## 什么是spa?
 `spa`中文名为“单页面应用”, 是现在前后端分离重要依据
