@@ -7,8 +7,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-var STATIC_PATH = "/home/ph/program/spa/static/"
-var INDEX_PATH = "/home/ph/program/spa/static/index.html"
+var STATIC_PATH = "/home/ph/program/spa/static/dist/"
+var INDEX_PATH = "/home/ph/program/spa/static/dist/index.html"
 
 func backFile(filename string) string {
 	var f, err = os.Stat(STATIC_PATH + filename)
